@@ -5,10 +5,8 @@ metadata:
   labels:
     app: dev
 spec:
-  type: LoadBalancer
   ports:
   - port: 80
-    nodePort: 30001
     protocol: TCP
   selector:
     app: dev
